@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trees</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>Trees!</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Sed quo maiores nam minus explicabo laborum corporis reiciendis provident dicta? 
-        Perferendis nostrum deleniti in similique quisquam. 
-        Dolores fugiat voluptatibus voluptates ipsam?</p>
+    
+<svg viewBox="0 0 600 300">
+    <!-- Symbol-->
+    <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="50%" dy=".35em">Trees!</text>
+    </symbol>
+    <!-- Duplicate symbols-->
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+  </svg>
 </body>
 </html>
